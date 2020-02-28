@@ -67,12 +67,14 @@
                 <ul
                   class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block"
                 >
-                  <li class="active">
+                  <li>
                     <a href="index.html" class="nav-link">Home</a>
                   </li>
                   <li><a href="features.html" class="nav-link">Features</a></li>
-                  <li><a href="pricing.html" class="nav-link">Pricing</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="pricing.php" class="nav-link">Pricing</a></li>
+                  <li class="active">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -142,118 +144,18 @@
           </div>
         </div>
 
-        <div class="site-section">
+        <div class="site-section border-top border-bottom">
           <div class="container">
-            <div class="row justify-content-center text-center">
-              <div class="col-md-7 mb-5">
-                <h2 class="section-heading">Choose A Model</h2>
-                <p>
-                  Choose one of the following models that suits you and your
-                  company's needs. This can be heavily customised if you speak
-                  to our Customer service or send us a mail.
-                </p>
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-4">
+                <h2 class="section-heading">Select the Units</h2>
               </div>
             </div>
-            <div class="row align-items-stretch">
-              <div class="col-lg-4 mb-4 mb-lg-0">
-                <div class="pricing h-100 text-center">
-                  <span>&nbsp;</span>
-                  <h3>KuangoQMS</h3>
-                  <ul class="list-unstyled">
-                    <li></li>
-                    <li>Full wireless system</li>
-                    <li>Feedback/Customer Survey</li>
-                    <li>
-                      Ultra-high definition 15" to 17" touch screen information
-                      display
-                    </li>
-                    <li>Card Reader (Optional)</li>
-                    <li>Biometric reader/scanner (optional)</li>
-                    <li>Robust real-time reporting system</li>
-                    <li>Web-based system (optional)</li>
-                    <li>Online queuing enabled</li>
-                    <li>
-                      Integrates with existing infrastructure,
-                      directory/software
-                    </li>
-                    <li>Automated backup system</li>
-                    <li>Real time reporting software</li>
-                    <li>Customer priority based on segmentation</li>
-                    <li>Floor standing/Wall mount Kiosk options</li>
-                    <li>Can function as a stand alone without integration</li>
-                  </ul>
-                  <div class="price-cta">
-                    <strong class="price">N350000</strong>
-                    <p><a href="#" class="btn btn-white">Choose Model</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-4 mb-lg-0">
-                <div class="pricing h-100 text-center popular">
-                  <span class="popularity">Most Popular</span>
-                  <h3>KuangoQMS Pro</h3>
-                  <ul class="list-unstyled">
-                    <li></li>
-                    <li>Full wireless system</li>
-                    <li>Feedback/Customer Survey</li>
-                    <li>
-                      Ultra-high definition 15" to 17" touch screen information
-                      display
-                    </li>
-                    <li>Card Reader (Optional)</li>
-                    <li>Biometric reader/scanner (optional)</li>
-                    <li>Robust real-time reporting system</li>
-                    <li>Web-based system (optional)</li>
-                    <li>Online queuing enabled</li>
-                    <li>
-                      Integrates with existing infrastructure,
-                      directory/software
-                    </li>
-                    <li>Automated backup system</li>
-                    <li>Real time reporting software</li>
-                    <li>Customer priority based on segmentation</li>
-                    <li>Floor standing/Wall mount Kiosk options</li>
-                    <li>Can function as a stand alone without integration</li>
-                  </ul>
-                  <div class="price-cta">
-                    <strong class="price">N500000</strong>
-                    <p><a href="#" class="btn btn-white">Choose Model</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-4 mb-lg-0">
-                <div class="pricing h-100 text-center">
-                  <span class="popularity">Best Value</span>
-                  <h3>KuangoQMS Max</h3>
-                  <ul class="list-unstyled">
-                    <li></li>
-                    <li>Full wireless system</li>
-                    <li>Feedback/Customer Survey</li>
-                    <li>
-                      Ultra-high definition 15" to 17" touch screen information
-                      display
-                    </li>
-                    <li>Card Reader (Optional)</li>
-                    <li>Biometric reader/scanner (optional)</li>
-                    <li>Robust real-time reporting system</li>
-                    <li>Web-based system (optional)</li>
-                    <li>Online queuing enabled</li>
-                    <li>
-                      Integrates with existing infrastructure,
-                      directory/software
-                    </li>
-                    <li>Automated backup system</li>
-                    <li>Real time reporting software</li>
-                    <li>Customer priority based on segmentation</li>
-                    <li>Floor standing/Wall mount Kiosk options</li>
-                    <li>Can function as a stand alone without integration</li>
-                  </ul>
-                  <div class="price-cta">
-                    <strong class="price">N1 200 000</strong>
-                    <p><a href="#" class="btn btn-white">Choose Model</a></p>
-                  </div>
-                </div>
-              </div>
+            <div class="row justify-content-left text-center ">
+              <div class="col-md-7"></div>
+
+              
+            <?php require "product_page/index.php"; ?>
             </div>
           </div>
         </div>
@@ -369,7 +271,7 @@
               </div>
               <div class="col-md-5 text-center text-md-right">
                 <p>
-                  <a href="pricing.html" class="btn"
+                  <a href="pricing.php" class="btn"
                     ><span class="icofont-dollar mr-3"></span>Pricing Page</a
                   >
                 </p>
@@ -401,7 +303,7 @@
                 <div class="col-md-4 mb-4 mb-md-0">
                   <h3>Navigation</h3>
                   <ul class="list-unstyled">
-                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="pricing.php">Pricing</a></li>
                     <li><a href="features.html">Features</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
@@ -416,7 +318,7 @@
                 <div class="col-md-4 mb-4 mb-md-0">
                   <h3>Purchase</h3>
                   <ul class="list-unstyled">
-                    <li><a href="pricing.html">Purcahse online </a></li>
+                    <li><a href="pricing.php">Purcahse online </a></li>
                     <li>
                       <a href="#">Speak to our active customer support.</a>
                     </li>
