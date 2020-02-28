@@ -55,7 +55,11 @@
                   <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li><a href="features.html" class="nav-link">Features</a></li>
+<<<<<<< HEAD
                 <li><a href="pricing.php" class="nav-link">Pricing</a></li>
+=======
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
               </ul>
             </nav>
@@ -89,7 +93,11 @@
                 <div class="col-md-7 text-center hero-text">
                   <h1 data-aos="fade-up" data-aos-delay="">Payment</h1>
                   <p class="mb-5" data-aos="fade-up" data-aos-delay="100">
+<<<<<<< HEAD
                     Pay the initial setup fee
+=======
+                    jvjhbvkhb
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                   </p>
                 </div>
               </div>
@@ -102,7 +110,11 @@
         <div class="container">
           <div class="row mb-5 align-items-end">
             <div class="col-md-6" data-aos="fade-up">
+<<<<<<< HEAD
               <h2>Payment form</h2>
+=======
+              <h2>hgvvhwe</h2>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
               <p class="mb-0">
                 Fill in the correct information.
               </p>
@@ -112,11 +124,19 @@
 
 
           <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+<<<<<<< HEAD
             <form action="payment.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name">Name</label>
                   <input type="text" name="name" class="form-control" id="name" data-rule="required" data-msg="Please enter your name" />
+=======
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
@@ -125,6 +145,7 @@
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-12 form-group">
+<<<<<<< HEAD
                   <label for="name">Phone Number</label>
                   <input type="text" class="form-control" name="phone" id="phone" data-rule="minlen:4" data-msg="Please enter at least 11 chars" />
                   <div class="validate"></div>
@@ -138,6 +159,28 @@
 
 
                 <div class="col-md-6 form-group">
+=======
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+
+                <div class="col-md-6 form-group">
+
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                   <form>
                     <script src="https://js.paystack.co/v1/inline.js"></script>
                     <button class="btn btn-primary d-block w-100" type="button" onclick="payWithPaystack()"> Pay </button>
@@ -250,7 +293,11 @@
         </div>
         <div class="col-md-5 text-center text-md-right">
           <p>
+<<<<<<< HEAD
             <a href="pricing.php" class="btn"><span class="icofont-dollar mr-3"></span>Pricing Page</a>
+=======
+            <a href="pricing.html" class="btn"><span class="icofont-dollar mr-3"></span>Pricing Page</a>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
           </p>
         </div>
       </div>
@@ -280,7 +327,11 @@
             <div class="col-md-4 mb-4 mb-md-0">
               <h3>Navigation</h3>
               <ul class="list-unstyled">
+<<<<<<< HEAD
                 <li><a href="pricing.php">Pricing</a></li>
+=======
+                <li><a href="pricing.html">Pricing</a></li>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                 <li><a href="features.html">Features</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
@@ -295,7 +346,11 @@
             <div class="col-md-4 mb-4 mb-md-0">
               <h3>Purchase</h3>
               <ul class="list-unstyled">
+<<<<<<< HEAD
                 <li><a href="pricing.php">Purcahse online </a></li>
+=======
+                <li><a href="pricing.html">Purcahse online </a></li>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
                 <li>
                   <a href="#">Speak to our active customer support.</a>
                 </li>
@@ -325,6 +380,7 @@
     function payWithPaystack() {
       var handler = PaystackPop.setup({
         key: 'pk_test_83fb875aff051650ea7c3935d3bb0b484c109e3c',
+<<<<<<< HEAD
         email: "$_POST['email']",
         amount: 1200000,   //'$_POST[amount]',
        //edc ref: '' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
@@ -344,6 +400,16 @@
             display_name: "Delivery Address",
             variable_name: "address",
             value: "$_POST['address']"
+=======
+        email: 'kuango@gmail.com',
+        amount: '12000000',
+        ref: '' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+        metadata: {
+          custom_fields: [{
+            display_name: "Delivery Address",
+            variable_name: "address",
+            value: "$address"
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
           }]
         },
         callback: function(response) {

@@ -71,7 +71,11 @@
                     <a href="index.html" class="nav-link">Home</a>
                   </li>
                   <li><a href="features.html" class="nav-link">Features</a></li>
+<<<<<<< HEAD:pricing.php
                   <li><a href="pricing.php" class="nav-link">Pricing</a></li>
+=======
+                  <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33:pricing.html
                   <li class="active">
                     <a href="contact.html" class="nav-link">Contact</a>
                   </li>
@@ -144,18 +148,31 @@
           </div>
         </div>
 
+<<<<<<< HEAD:pricing.php
         <div class="site-section border-top border-bottom">
           <div class="container">
             <div class="row justify-content-center text-center mb-5">
               <div class="col-md-4">
                 <h2 class="section-heading">Select the Units</h2>
+=======
+
+
+        <div class="site-section border-top border-bottom">
+          <div class="container">
+            <div class="row justify-content-left text-center mb-5">
+              <div class="col-md-4">
+                <h2 class="section-heading">Additional Features</h2>
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33:pricing.html
               </div>
             </div>
             <div class="row justify-content-left text-center ">
               <div class="col-md-7"></div>
+<<<<<<< HEAD:pricing.php
 
               
             <?php require "product_page/index.php"; ?>
+=======
+>>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33:pricing.html
             </div>
           </div>
         </div>
