@@ -56,7 +56,7 @@
                 </li>
                 <li><a href="features.html" class="nav-link">Features</a></li>
 <<<<<<< HEAD
-                <li><a href="pricing.php" class="nav-link">Pricing</a></li>
+                <li><a href="/kuangosite/product_page/pricing.php" class="nav-link">Pricing</a></li>
 =======
                 <li><a href="pricing.html" class="nav-link">Pricing</a></li>
 >>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
@@ -293,11 +293,7 @@
         </div>
         <div class="col-md-5 text-center text-md-right">
           <p>
-<<<<<<< HEAD
-            <a href="pricing.php" class="btn"><span class="icofont-dollar mr-3"></span>Pricing Page</a>
-=======
-            <a href="pricing.html" class="btn"><span class="icofont-dollar mr-3"></span>Pricing Page</a>
->>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
+            <a href="/kuangosite/product_page/pricing.php" class="btn"><span class="icofont-dollar mr-3"></span>Pricing Page</a>
           </p>
         </div>
       </div>
@@ -327,11 +323,7 @@
             <div class="col-md-4 mb-4 mb-md-0">
               <h3>Navigation</h3>
               <ul class="list-unstyled">
-<<<<<<< HEAD
-                <li><a href="pricing.php">Pricing</a></li>
-=======
-                <li><a href="pricing.html">Pricing</a></li>
->>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
+                <li><a href="/kuangosite/product_page/pricing.php">Pricing</a></li>
                 <li><a href="features.html">Features</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
@@ -346,11 +338,7 @@
             <div class="col-md-4 mb-4 mb-md-0">
               <h3>Purchase</h3>
               <ul class="list-unstyled">
-<<<<<<< HEAD
-                <li><a href="pricing.php">Purcahse online </a></li>
-=======
-                <li><a href="pricing.html">Purcahse online </a></li>
->>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
+                <li><a href="/kuangosite/product_page/pricing.php">Purcahse online </a></li>
                 <li>
                   <a href="#">Speak to our active customer support.</a>
                 </li>
@@ -380,7 +368,6 @@
     function payWithPaystack() {
       var handler = PaystackPop.setup({
         key: 'pk_test_83fb875aff051650ea7c3935d3bb0b484c109e3c',
-<<<<<<< HEAD
         email: "$_POST['email']",
         amount: 1200000,   //'$_POST[amount]',
        //edc ref: '' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
@@ -400,16 +387,6 @@
             display_name: "Delivery Address",
             variable_name: "address",
             value: "$_POST['address']"
-=======
-        email: 'kuango@gmail.com',
-        amount: '12000000',
-        ref: '' + Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-        metadata: {
-          custom_fields: [{
-            display_name: "Delivery Address",
-            variable_name: "address",
-            value: "$address"
->>>>>>> fe095e4a78eefcf4960b6cf478962e80caa58a33
           }]
         },
         callback: function(response) {
